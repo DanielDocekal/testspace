@@ -547,7 +547,7 @@ position: relative;
 	
 	.post-entry a.more-link {
 		   font-weight: 700;
-		     
+  
   border-width: 0px;
   border-style: solid solid solid solid;
  
@@ -1775,29 +1775,8 @@ padding-bottom:0px;
     margin-right: 0;
 }
 ]]></b:skin>
-  &lt;!-- Facebook Pixel Code --&gt;
-&lt;script&gt;
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version=&#39;2.0&#39;;n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,&#39;script&#39;,&#39;https://connect.facebook.net/en_US/fbevents.js&#39;);
-fbq(&#39;init&#39;, &#39;115103155755501&#39;); // Insert your pixel ID here.
-fbq(&#39;track&#39;, &#39;PageView&#39;);
-&lt;/script&gt;
-&lt;noscript&gt;&lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display:none&quot;
-src=&quot;https://www.facebook.com/tr?id=115103155755501&amp;ev=PageView&amp;noscript=1&quot;
-/&gt;&lt;/noscript&gt;
-&lt;!-- DO NOT MODIFY --&gt;
-&lt;!-- End Facebook Pixel Code --&gt;
+  </head>
 
-</head>
-<script>
-fbq(&#39;track&#39;, &#39;ViewContent&#39;, {
-value: 3.50,
-currency: &#39;USD&#39;
-});
-</script>
 
 <style type='text/css'>
 
@@ -3104,10 +3083,10 @@ document.write('<img width="100" height="100" src="' + avtr + '"/>');
 	
 		<div class='container'>
 			<b:section id='navigation-wrapper' showaddelement='yes'>
-<b:widget id='PageList1' locked='false' title='Stránky' type='PageList' version='1'>
+<b:widget id='PageList1' locked='false' title='Pages' type='PageList' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'http://www.zuzanastankova.cz/', 'title': 'Úvodní stránka', 'position': 0}, '2708344876470243342': {'href': 'http://www.zuzanastankova.cz/p/spolupracuji-s.html', 'title': 'Reference', 'position': 1}, '6109048227747293500': {'href': 'http://www.zuzanastankova.cz/p/obchod-na-fleru.html', 'title': 'Koupit šperky', 'position': 2}, '660584184023013756': {'href': 'http://www.zuzanastankova.cz/p/kontakt.html', 'title': 'Kontakt', 'position': 3}}]]></b:widget-setting>
-    <b:widget-setting name='homeTitle'>Úvodní stránka</b:widget-setting>
+    <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://lousyanne.blogspot.com/', 'title': 'Domovská stránka', 'position': 0}}]]></b:widget-setting>
+    <b:widget-setting name='homeTitle'>Domovská stránka</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
@@ -3139,7 +3118,7 @@ document.write('<img width="100" height="100" src="' + avtr + '"/>');
   </div>
 </b:includable>
 </b:widget>
-<b:widget id='Navbar1' locked='false' title='Navigační lišta' type='Navbar' version='1'>
+<b:widget id='Navbar1' locked='false' title='Navigační lišta' type='Navbar'>
   <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -3156,7 +3135,7 @@ document.write('<img width="100" height="100" src="' + avtr + '"/>');
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d2048688582757548830\x26blogName\x3dZuzana+Sta%C5%88kov%C3%A1\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.zuzanastankova.cz/search\x26blogLocale\x3dcs\x26v\x3d2\x26homepageUrl\x3dhttp://www.zuzanastankova.cz/\x26vt\x3d-7283481534212616945&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8848403596007614762\x26blogName\x3dLousyAnne\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLACK\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://lousyanne.blogspot.com/search\x26blogLocale\x3dcs\x26v\x3d2\x26homepageUrl\x3dhttps://lousyanne.blogspot.com/\x26vt\x3d-8233001493465923825&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -3191,17 +3170,9 @@ head.appendChild(script);
 				</form>	
 			</div>
 			<b:section id='top-social' showaddelement='yes'>
-<b:widget id='HTML10' locked='false' title='sociální sítě' type='HTML' version='1'>
+<b:widget id='HTML10' locked='false' title='top social' type='HTML' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;a href=&#39;https://www.facebook.com/zuzanastankovaqb&#39; target=&#39;_blank&#39;&gt;
-&lt;i class=&#39;fa fa-facebook&#39;&gt;
-&lt;/i&gt;&lt;/a&gt;				
-&lt;a href=&#39;#&#39; target=&#39;_blank&#39;&gt;
-&lt;i class=&#39;fa fa-instagram&#39;/&gt;
-&lt;/i&gt;&lt;/a&gt;				
-&lt;a href=&#39;https://cz.pinterest.com/crazzzy24/&#39; target=&#39;_blank&#39;&gt;
-&lt;i class=&#39;fa fa-pinterest&#39;/&gt;
-&lt;/i&gt;&lt;/a&gt;</b:widget-setting>
+    <b:widget-setting name='content'/>
   </b:widget-settings>
   <b:includable id='main'>
 						<data:content/>
@@ -3214,15 +3185,15 @@ head.appendChild(script);
 	
 	
 	<b:section id='header' showaddelement='yes'>
-<b:widget id='Header1' locked='false' title='Zuzana Staňková (záhlaví)' type='Header' version='1'>
+<b:widget id='Header1' locked='false' title='LousyAnne (záhlaví)' type='Header' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-BOjOegU08N0/WPIuRYXNe4I/AAAAAAAACW4/fjniafUIpDQHKn5HxnTHMxUDcL4zgIEgwCK4B/s1600/logo%2Bblog%2BZuzana%2BSta%25C5%2588kov%25C3%25A1.png</b:widget-setting>
-    <b:widget-setting name='displayHeight'>281</b:widget-setting>
-    <b:widget-setting name='sectionWidth'>1071</b:widget-setting>
-    <b:widget-setting name='useImage'>true</b:widget-setting>
+    <b:widget-setting name='displayUrl'/>
+    <b:widget-setting name='displayHeight'>0</b:widget-setting>
+    <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+    <b:widget-setting name='useImage'>false</b:widget-setting>
     <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-    <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-    <b:widget-setting name='displayWidth'>1080</b:widget-setting>
+    <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+    <b:widget-setting name='displayWidth'>0</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
 				<b:if cond='data:useImage'>
@@ -3286,8 +3257,7 @@ head.appendChild(script);
 	
 	
 	<b:if cond='data:blog.url == data:blog.homepageUrl'>
-<!-- toona , vypnuti slideru 5.6.2017	-->
-
+	
 	<div class='featured-area'>
 		<div id='carousel'>
 
@@ -3298,37 +3268,31 @@ head.appendChild(script);
 					
 		
 </div>		
-	</div>	
+	</div>		
 	</b:if>
 	<div class='container sp_sidebar'>
 	
 		<b:section id='main' showaddelement='no'>
 <b:widget id='Blog1' locked='true' title='Příspěvky na blogu' type='Blog' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='commentLabel'>comments</b:widget-setting>
-    <b:widget-setting name='showShareButtons'>false</b:widget-setting>
-    <b:widget-setting name='authorLabel'>Posted by</b:widget-setting>
-    <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-    <b:widget-setting name='timestampLabel'>at</b:widget-setting>
-    <b:widget-setting name='reactionsLabel'>Reactions:</b:widget-setting>
-    <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-    <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-    <b:widget-setting name='showLocation'>false</b:widget-setting>
-    <b:widget-setting name='showTimestamp'>false</b:widget-setting>
-    <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-    <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-    <b:widget-setting name='backlinksLabel'>Links to this post</b:widget-setting>
     <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-    <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
-    <b:widget-setting name='showCommentLink'>false</b:widget-setting>
-    <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
-    <b:widget-setting name='showAuthor'>false</b:widget-setting>
-    <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
-    <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+    <b:widget-setting name='style.textcolor'>#cccccc</b:widget-setting>
+    <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+    <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+    <b:widget-setting name='style.urlcolor'>#cccccc</b:widget-setting>
+    <b:widget-setting name='showAuthor'>true</b:widget-setting>
+    <b:widget-setting name='style.linkcolor'>#aadd99</b:widget-setting>
+    <b:widget-setting name='style.unittype'>TextOnly</b:widget-setting>
+    <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+    <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+    <b:widget-setting name='style.layout'>468x60</b:widget-setting>
     <b:widget-setting name='showLabels'>true</b:widget-setting>
-    <b:widget-setting name='postLabelsLabel'>Labels:</b:widget-setting>
-    <b:widget-setting name='showBacklinks'>false</b:widget-setting>
-    <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+    <b:widget-setting name='showLocation'>true</b:widget-setting>
+    <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+    <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+    <b:widget-setting name='showBacklinks'>true</b:widget-setting>
+    <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+    <b:widget-setting name='showInlineAds'>true</b:widget-setting>
     <b:widget-setting name='showReactions'>false</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main' var='top'>
@@ -3782,10 +3746,10 @@ head.appendChild(script);
 
 
 		<b:if cond='data:newerPageUrl'>
-					<div class='newer'><a expr:href='data:newerPageUrl'><span class='pager-heading'>Nové</span><br/><span class='pager-title'> Příspěvky</span><span class='post-nav-icon'><i class='fa fa-chevron-left'/></span></a></div>		
+					<div class='newer'><a expr:href='data:newerPageUrl'><span class='pager-heading'>Newer</span><br/><span class='pager-title'> Stories</span><span class='post-nav-icon'><i class='fa fa-chevron-left'/></span></a></div>		
 				</b:if>
 				<b:if cond='data:olderPageUrl'>
-                  <div class='older'><a expr:href='data:olderPageUrl'><span class='pager-heading'>Starší</span><br/><span class='pager-title'> Příspěvky</span><span class='post-nav-icon'><i class='fa fa-chevron-right'/></span></a></div>
+                  <div class='older'><a expr:href='data:olderPageUrl'><span class='pager-heading'>Older</span><br/><span class='pager-title'> Stories</span><span class='post-nav-icon'><i class='fa fa-chevron-right'/></span></a></div>
 				</b:if>
 			</div>
 		 
@@ -3815,7 +3779,7 @@ head.appendChild(script);
 
 					<div class='post-share'>
 						<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-facebook'/></span></a>
-			
+						<a expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-twitter'/></span></a>
 						<a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());' target='_blank'><span class='share-box'><i class='fa fa-pinterest'/></span></a>
 						<a expr:href='&quot;https://plus.google.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-google-plus'/></span></a>
 						<a expr:href='data:post.url'><span class='share-box'><i class='fa fa-comment-o'/></span></a>		
@@ -3828,16 +3792,19 @@ head.appendChild(script);
 						</div>	
 						<div class='author-content'>
 								<h5><a href='' rel='author' title='Posts by solopine'><data:post.author/></a></h5>
-							<p>Zuzana Staňková autorka blogu o tvoření.</p>
-							<a class='author-social' href='https://www.facebook.com/zuzanastankovaqb' target='_blank'><i class='fa fa-facebook'/></a>		
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+							<a class='author-social' href='Facebook link goes here' target='_blank'><i class='fa fa-facebook'/></a>		
+							<a class='author-social' href='Twitter link goes here' target='_blank'><i class='fa fa-twitter'/></a>	
 							<a class='author-social' href='Instagram link goes here' target='_blank'><i class='fa fa-instagram'/></a>	
-							<a class='author-social' href='https://cz.pinterest.com/crazzzy24/' target='_blank'><i class='fa fa-pinterest'/></a>	
+							<a class='author-social' href='Google plus link goes here' target='_blank'><i class='fa fa-google-plus'/></a>	
+							<a class='author-social' href='Pinterest link goes here' target='_blank'><i class='fa fa-pinterest'/></a>	
+							<a class='author-social' href='Tumblr link goes here' target='_blank'><i class='fa fa-tumblr'/></a>
 						</div>
 					</div>			
 					<!--author biography end -->
 					<div class='post-related'>
 						<div class='post-box'>
-							<h4 class='post-box-title'>Také se Vám bude líbit</h4>
+							<h4 class='post-box-title'>You Might Also Like</h4>
 						</div>
 						<b:loop values='data:post.labels' var='label'>
 							<script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels_thumbs&amp;max-results=6&quot;' type='text/javascript'/>							 
@@ -3866,7 +3833,7 @@ head.appendChild(script);
 						</div>
 						<div class='post-share'>
 							<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-facebook'/></span></a>
-						
+							<a expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-twitter'/></span></a>
 							<a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());' target='_blank'><span class='share-box'><i class='fa fa-pinterest'/></span></a>
 							<a expr:href='&quot;https://plus.google.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-google-plus'/></span></a>
 							<a expr:href='data:post.url'><span class='share-box'><i class='fa fa-comment-o'/></span></a>		
@@ -3909,7 +3876,7 @@ head.appendChild(script);
 						<script type='text/javascript'>createSummaryAndThumb(&quot;summary<data:post.id/>&quot;,&quot;<data:post.title/>&quot;,&quot;<data:post.url/>&quot;,&quot;<data:post.timestamp/>&quot;,&quot;<data:post.numComments/>&quot;,&quot;<b:loop values='data:post.labels' var='label'><a expr:href='data:label.url + &quot;?max-results=6&quot;' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'> ,</b:if></b:loop>&quot;);</script>    	
 						<div class='post-share'>
 							<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-facebook'/></span></a>
-						
+							<a expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-twitter'/></span></a>
 							<a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());' target='_blank'><span class='share-box'><i class='fa fa-pinterest'/></span></a>
 							<a expr:href='&quot;https://plus.google.com/share?url=&quot; + data:post.url' target='_blank'><span class='share-box'><i class='fa fa-google-plus'/></span></a>
 							<a expr:href='data:post.url'><span class='share-box'><i class='fa fa-comment-o'/></span></a>		
@@ -4197,12 +4164,9 @@ head.appendChild(script);
 </b:section>
 		
 		<b:section id='sidebar' showaddelement='yes'>
-<b:widget id='HTML2' locked='false' title='Najdete mě také' type='HTML'>
+<b:widget id='Text1' locked='false' title='SUBSCRIBE' type='Text'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;div class=&quot;widget-social&quot;&gt;
-    &lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/zuzanastankovaqb&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
-            &lt;a target=&quot;_blank&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
-          &lt;a target=&quot;_blank&quot; href=&quot;https://cz.pinterest.com/crazzzy24/&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;</b:widget-setting>
+    <b:widget-setting name='content'/>
   </b:widget-settings>
   <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -4216,9 +4180,9 @@ head.appendChild(script);
   <b:include name='quickedit'/>
 </b:includable>
 </b:widget>
-<b:widget id='Text1' locked='false' title='O MNĚ' type='Text'>
+<b:widget id='HTML2' locked='false' title='Subscribe and Follow' type='HTML'>
   <b:widget-settings>
-    <b:widget-setting name='content'><![CDATA[<div class="textwidget"><br />    <p><img src="https://c1.staticflickr.com/3/2887/34011164236_c986519ef2.jpg" style="margin-bottom: 10px;" / /></p>Jmenuji se Zuzana Staňková a věnuji se tvoření všeho druhu. Vyrábím, fotím a píši DIY návody a tutoriály do časopisů a na spřátelené blogy. Jsem schopná prezentovat v TV i na akcích. Vedu rukodělné workshopy nejen pro děti. Zároveň tvořím převážně kostičkové šperky pod značkou <a href="https://www.fler.cz/q-b">[q:]b</a>, což je fonetický záznam anglického slova cube. <br /></div><span style="background: rgb(189, 8, 28) url(&quot;data:image/svg+xml; border-radius: 2px; border-radius: 2px; border: medium none; border: medium none; cursor: pointer; cursor: pointer; data: image/svg+xml; display: none; display: none; font: bold 11px/20px &quot;Helvetica Neue&quot;,Helvetica,sans-serif; font: bold 11px/20px &quot;Helvetica Neue&quot;,Helvetica,sans-serif; left: 13px; opacity: 1; opacity: 1; padding: 0px 4px 0px 0px; padding: 0px 4px 0px 0px; position: absolute; position: absolute; text-align: center; text-align: center; text-indent: 20px; text-indent: 20px; top: 48px; width: auto; width: auto; z-index: 8675309;color:white;"></span>]]></b:widget-setting>
+    <b:widget-setting name='content'><![CDATA[<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("551da217b8e3e828b5fb1bf625fbba7c");</script><fb:fan connections="10" width="300" profile_id="73853464545" stream="1"></fb:fan><div style="font-size:8px; padding-left:10px"><a href="http://www.facebook.com/pooh.cz">POOH.CZ</a> on Facebook</div>]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -4232,12 +4196,28 @@ head.appendChild(script);
   <b:include name='quickedit'/>
 </b:includable>
 </b:widget>
-<b:widget id='Label1' locked='false' title='ŠTÍTKY' type='Label' version='1'>
+<b:widget id='HTML3' locked='false' title='Press' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'><![CDATA[<!-- Facebook Badge START --><a style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" href="http://www.facebook.com/Daniel.Docekal" target="_TOP" title="Daniel Bradbury Dočekal">Daniel Bradbury Dočekal</a><br/><a href="http://www.facebook.com/Daniel.Docekal" target="_TOP" title="Daniel Bradbury Dočekal"><img width="120" style="border: 0px;" src="http://badge.facebook.com/badge/570949930.2016.1239823363.png" height="375"/></a><br/><a style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" href="http://www.facebook.com/facebook-widgets/" target="_TOP" title="Make your own badge!">Create Your Badge</a><!-- Facebook Badge END -->]]></b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+</b:widget>
+<b:widget id='Label1' locked='false' title='Labels' type='Label' version='1'>
   <b:widget-settings>
     <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
     <b:widget-setting name='display'>LIST</b:widget-setting>
-    <b:widget-setting name='selectedLabelsList'>DIY,Valentýn,Velikonoce,Vánoce,dárek,přání,visačky,šperky</b:widget-setting>
-    <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
+    <b:widget-setting name='selectedLabelsList'/>
+    <b:widget-setting name='showType'>ALL</b:widget-setting>
     <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
@@ -4278,7 +4258,7 @@ head.appendChild(script);
   </div>
 </b:includable>
 </b:widget>
-<b:widget id='HTML4' locked='false' title='POSLEDNÍ PŘÍSPĚVKY' type='HTML' version='1'>
+<b:widget id='HTML4' locked='false' title='recent posts' type='HTML' version='1'>
   <b:widget-settings>
     <b:widget-setting name='content'/>
   </b:widget-settings>
@@ -4295,7 +4275,7 @@ head.appendChild(script);
 							    
 						</b:includable>
 </b:widget>
-<b:widget id='BlogArchive1' locked='false' title='ARCHIV BLOGU' type='BlogArchive' version='1'>
+<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive' version='1'>
   <b:widget-settings>
     <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
     <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
@@ -4389,17 +4369,189 @@ head.appendChild(script);
  </b:if>
 </b:includable>
 </b:widget>
+<b:widget id='Profile1' locked='false' title='O mně' type='Profile'>
+  <b:widget-settings>
+    <b:widget-setting name='showaboutme'>true</b:widget-setting>
+    <b:widget-setting name='showlocation'>false</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+          <b:if cond='data:hasgoogleprofile'>
+            <br/>
+            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
+          </b:if>
+        </dt>
+
+        <b:if cond='data:showlocation'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+</b:widget>
+<b:widget id='LinkList1' locked='false' title='Linky, podlinky a nadlinky' type='LinkList'>
+  <b:widget-settings>
+    <b:widget-setting name='text-9'>Proximity Prague Blog</b:widget-setting>
+    <b:widget-setting name='link-9'>http://proximityprague.blogspot.cz/</b:widget-setting>
+    <b:widget-setting name='text-8'>Nic než tiskové zprávy</b:widget-setting>
+    <b:widget-setting name='link-7'>http://www.ihned.cz/</b:widget-setting>
+    <b:widget-setting name='link-8'>http://www.feedit.cz/</b:widget-setting>
+    <b:widget-setting name='link-5'>http://picasaweb.google.cz/MedvidekPU</b:widget-setting>
+    <b:widget-setting name='link-6'>http://www.inside.cz/</b:widget-setting>
+    <b:widget-setting name='link-3'>http://lousyanne.deviantart.com/</b:widget-setting>
+    <b:widget-setting name='link-4'>http://picasaweb.google.cz/MedvidekPU</b:widget-setting>
+    <b:widget-setting name='text-1'>Father of all Blogs :)</b:widget-setting>
+    <b:widget-setting name='text-0'>Digitální agentura</b:widget-setting>
+    <b:widget-setting name='text-3'>LousyAnne @ DeviantART</b:widget-setting>
+    <b:widget-setting name='text-2'>Fritz the Hacker</b:widget-setting>
+    <b:widget-setting name='text-5'>LousyAnne @ PICASA</b:widget-setting>
+    <b:widget-setting name='text-4'>LousyAnne @ PICASA</b:widget-setting>
+    <b:widget-setting name='text-7'>Nesmírná otročina(c)</b:widget-setting>
+    <b:widget-setting name='text-6'>Nejlepší měsíčník v ČR</b:widget-setting>
+    <b:widget-setting name='sorting'>ALPHABETICAL</b:widget-setting>
+    <b:widget-setting name='link-1'>http://www.pooh.cz/</b:widget-setting>
+    <b:widget-setting name='link-2'>http://www.fritzthehacker.blogspot.com/</b:widget-setting>
+    <b:widget-setting name='link-0'>http://www.proximity.cz/</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+</b:widget>
+<b:widget id='Feed1' locked='false' title='deviantART: LousyAnne' type='Feed'>
+  <b:widget-settings>
+    <b:widget-setting name='feedUrl'><![CDATA[http://backend.deviantart.com/rss.xml?q=gallery%3ALousyAnne%2F1825480&type=deviation&offset=0]]></b:widget-setting>
+    <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
+    <b:widget-setting name='numItemsShow'>5</b:widget-setting>
+    <b:widget-setting name='showItemDate'>false</b:widget-setting>
+    <b:widget-setting name='showItemAuthor'>false</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <h2><data:title/></h2>
+    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+      <span style='filter: alpha(25); opacity: 0.25;'>
+        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+      </span>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+<b:widget id='HTML1' locked='false' title='***** Přečteno jinde *****' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'>&lt;script src=&quot;http://www.google.com/reader/ui/publisher-en.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://www.google.com/reader/public/javascript/user/01201064119384435258/state/com.google/broadcast?n=10&amp;callback=GRC_p(%7Bc%3A%22blue%22%2Cs%3A%22false%22%2Cb%3A%22false%22%7D)%3Bnew%20GRC&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+</b:widget>
+<b:widget id='Feed3' locked='false' title='Daniel Dočekal' type='Feed'>
+  <b:widget-settings>
+    <b:widget-setting name='feedUrl'>http://pinterest.com/medvidekpu/feed.rss</b:widget-setting>
+    <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
+    <b:widget-setting name='numItemsShow'>5</b:widget-setting>
+    <b:widget-setting name='showItemDate'>false</b:widget-setting>
+    <b:widget-setting name='showItemAuthor'>false</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <h2><data:title/></h2>
+    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+      <span style='filter: alpha(25); opacity: 0.25;'>
+        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+      </span>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+<b:widget id='Feed2' locked='false' title='WWW.POOH.CZ  *' type='Feed'>
+  <b:widget-settings>
+    <b:widget-setting name='feedUrl'><![CDATA[http://www.pooh.cz/default.asp?s=export&f=rss20]]></b:widget-setting>
+    <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
+    <b:widget-setting name='numItemsShow'>5</b:widget-setting>
+    <b:widget-setting name='showItemDate'>false</b:widget-setting>
+    <b:widget-setting name='showItemAuthor'>false</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <h2><data:title/></h2>
+    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+      <span style='filter: alpha(25); opacity: 0.25;'>
+        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+      </span>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
 </b:section>
 	</div>
 	
 	<div id='widget-area'>
 	
 		<div class='container'>
-			<b:section class='footerwidget' id='container1' showaddelement='yes'/>
-			<b:section class='footerwidget' id='container2' showaddelement='yes'>
-<b:widget id='HTML5' locked='false' title='Sledujte mě na Facebooku' type='HTML'>
+			<b:section class='footerwidget' id='container1' showaddelement='yes'>
+<b:widget id='Text2' locked='false' title='SUBSCRIBE' type='Text'>
   <b:widget-settings>
-    <b:widget-setting name='content'><![CDATA[<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuzanastankovaqb&amp;width=450px&amp;height=200&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:200px; width:450px" allowtransparency="true"></iframe>]]></b:widget-setting>
+    <b:widget-setting name='content'/>
+  </b:widget-settings>
+  <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+</b:widget>
+</b:section>
+			<b:section class='footerwidget' id='container2' showaddelement='yes'>
+<b:widget id='HTML5' locked='false' title='Like us on Facebook' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'/>
   </b:widget-settings>
   <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -4416,8 +4568,6 @@ head.appendChild(script);
 </b:section>
 			
 		</div>
-
-
 		
 	</div>
 	<b:section id='footer-social' showaddelement='yes'>
@@ -4444,24 +4594,7 @@ head.appendChild(script);
 	<b:section id='footer-social1' showaddelement='yes'>
 <b:widget id='HTML77' locked='false' title='Instagram' type='HTML'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;div id=&#39;instafeed&#39;&gt;&lt;/div&gt; 
-
-&lt;script type=&#39;text/javascript&#39;&gt;//&lt;![CDATA[ 
-
-var feed = new Instafeed({ 
- get: &#39;user&#39;, 
- userId: 1531863919, 
-  limit:16, 
-  sortBy:&#39;random&#39;, 
-accessToken: &#39;1531863919.1677ed0.23d238bc564249e799095d060c750218&#39;, 
-template: &#39;&lt;li&gt;&lt;div&gt;&lt;a target=&quot;_blank&quot; href=&quot;{{link}}&quot;&gt;&lt;img src=&quot;{{image}}&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#39;, 
- resolution: &#39;standard_resolution&#39; 
- }); 
- feed.run(); 
-
-
-//]]&gt; 
-&lt;/script&gt;</b:widget-setting>
+    <b:widget-setting name='content'/>
   </b:widget-settings>
   <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -4483,10 +4616,10 @@ template: &#39;&lt;li&gt;&lt;div&gt;&lt;a target=&quot;_blank&quot; href=&quot;{
 		
 		<div class='container'>
 		
-			<p> <a href='http://bloggertemplates20.com/' rel='dofollow' target='_blank' title='Blogger Templates'>Blogger Templates</a>  Created By :<a href='http://www.themexpose.com/' id='mycontent' title='Blogger'>
+			<p> Template Created By :<a href='http://www.themexpose.com/' id='mycontent' title='Blogger'>
           ThemeXpose
         </a>. All Rights Reserved.</p>
-			<a class='to-top' href='#'>Zpět nahoru <i class='fa fa-angle-double-up'/></a>			
+			<a class='to-top' href='#'>Back to top <i class='fa fa-angle-double-up'/></a>			
 		</div>
 		
 	</footer>
@@ -5125,12 +5258,5 @@ jQuery(document).ready(function($){
 //]]></script>
 	
    <b:include data='blog' name='google-analytics'/>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var seznam_retargeting_id = 48322;
-/* ]]> */
-</script>
-<script src='//c.imedia.cz/js/retargeting.js' type='text/javascript'/>
-						
 </body>
 </html>
